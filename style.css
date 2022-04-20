@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: #ff6500;
 }
 
 /*    Menu superior    */
@@ -11,7 +12,6 @@ body {
     background-color: #303030;
     width: 100%;
 }
-
 .main_header {
     width: 100%;
     margin-top: 20px;
@@ -20,7 +20,7 @@ body {
 .main_header_content {
     max-width: 1300px;
     margin: 0px auto;
-    display:flex
+    display:flex;
 }
 
 .logo{
@@ -34,10 +34,9 @@ body div input {
     margin: auto 10px;
 }
 
-.carrinho {
-    width: 100px;
-    height: 35px;
-    margin: auto;
+.solzinhoecarrinho {
+  margin: auto;
+  display: flex;
 }
 
 .monte_seu_pc {
@@ -49,32 +48,82 @@ body div input {
     width: 1300px;
 }
 
-/*    Produtos e lançamentos    */
-main {
-    width: 100%;
+
+/*    Engrenagem    */
+
+.engrenagem{
+    display: flex;
+    margin: 0 auto;
+    margin-left: -20px;
 }
 
+.engrenagem img{
+    width: 1299px;
+    margin: 0 auto;
+}
+
+/*    Produtos e lançamentos    */
+main{
+    background-color: #fff;
+    max-width: 1241px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px rgba(1, 1, 1, 0.363);
+    margin-top: 200;
+    
+}
 main section {
     max-width: 1300px;
-    color: aliceblue;
+    color: #fff;
     margin: 0 auto;
+}
+
+/*    Ofertas por tempo limitado    */
+.main_oferta{
+    display: flex;
+    margin: 0 auto;
+    margin-top: -265px;
+}
+
+.main_oferta_content{
+    width: 1241px;
+    background-color: #ff6500;
+    color: #fff;
+    height: 80px;
+    margin: 0 auto;
+    padding: 20px 0 0 10px;
+
+}
+
+.produtosNovosH1{
+    margin-left: 10px;
 }
 
 .produtos1 {
     margin: 20px auto;
-    width: 1300px;
+    width: 1220px;
+    margin-left: 10px;
+}
+
+.ofertasEmDestaqueH1{
+    margin-left: 10px;
 }
 
 .produtos2 {
     margin: 20px auto;
-    width: 1300px;
+    width: 1220px;
+    margin-left: 10px;
 }
 
 /*    Propaganda slide    */
 .slide {
+    display: flex;
+    max-width: 100%;
+    background-color: #272727;
+}
+
+.propagandaSlide{
     max-width: 899px;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 /*    Optin    */
@@ -99,16 +148,15 @@ main section {
     text-align: center;
 }
 
-.main_optin .main_optin_content header h1 {
-    color: aliceblue;
+.main_optin .main_optin_content header h2 {
+    color: #fff;
     padding: 20px 0;
     font-size: 2.2em;
 }
 
-
 #nometxt {
     flex-basis: 30%;
-    color: aliceblue;
+    color: #fff;
     background-color: #272727;
     border-radius: 5px;
     padding: 5px;
@@ -117,7 +165,7 @@ main section {
 
 #emailtxt {
     flex-basis: 30%;
-    color: aliceblue;
+    color: #fff;
     background-color: #272727;
     border-radius: 5px;
     padding: 5px;
@@ -126,7 +174,7 @@ main section {
 
 #botaoCadastrar {
     flex-basis: 20%;
-    color: aliceblue;
+    color: #fff;
     background-color: #272727;
     border-radius: 5px;
     font-size: 1.1em;
@@ -142,14 +190,58 @@ main section {
     margin-top: 20px;
 }
 
-.formasDePagamento{
-
+.formasDePagamentoIcons {
+    display: flex;
 }
 
-.nossosCertificados{
+#iconvisa {
+    width: 90px;
+    height: 70px;
 }
 
-.redesSociais{
+#iconmaster {
+    width: 90px;
+    height: 70px;
+    margin-left: 5px;
+}
+
+#iconamerican {
+    width: 90px;
+    height: 70px;
+}
+
+#iconpay {
+    width: 74px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+#iconboleto {
+    width: 84px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+#iconpix {
+    width: 74px;
+    height: 40px;
+    padding-top: 8px;
+    margin-left: 15px;
+}
+
+.imagemResdesSociais {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.imagemResdesSociaisEspaço {
+    padding-left: 20px;
+}
+
+.iconwhats {
+    display: flex;
+    padding-top: 15px;
 
 }
 
@@ -158,7 +250,7 @@ footer p{
     background-color: #272727;
     width: 100%;
     text-align: center;
-    color: aliceblue;
+    color: #fff;
     padding: 15px;
 }
 
